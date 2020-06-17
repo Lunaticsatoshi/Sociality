@@ -59,6 +59,7 @@ exports.reduceUserDetails = (data) => {
     } else userDetails.website = data.website;
   }
   if (!isEmpty(data.location.trim())) userDetails.location = data.location;
+  if (!isEmpty(data.company.trim())) userDetails.company = data.company;
 
   return userDetails
 }
