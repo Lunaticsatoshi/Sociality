@@ -17,6 +17,16 @@ let db = {
        body: 'Nice post',
        createdAt: '2020-05-21T15:33:01.018Z',
      }
+   ],
+   notifications: [
+     {
+       recipient: 'user',
+       sender: 'Pink Guy',
+       read: 'true||false',
+       postId: 'weyff2oyrurtdfvjfeiqrwghh',
+       type: 'Like||Comment',
+       createdAt: '2020-05-21T15:33:01.018Z',
+     }
    ]
 };
 

@@ -1,4 +1,0 @@
-node_modules/
-!serviceAccountKey.json
-*.json
-!config.js
